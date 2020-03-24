@@ -1,0 +1,147 @@
+body{
+	margin: 0;
+	font-size: 10vw;
+	font-family: arial;
+	text-align: center;
+	}
+#geheel.nightMode{
+	transition-duration: 3s;
+	color: white;
+	background-color: black;
+}
+#geheel.dayMode{
+	transition-duration: 3s;
+}
+#nacht{
+	font-size: 3vw;
+	border-radius: 2px;
+	margin-left: 40%;
+	margin-right: 40%;
+	color: black;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+#nacht:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+#overdag{
+	font-size: 3vw;
+	border: 0;
+	border-radius: 2px;
+	margin-left: 40%;
+	margin-right: 40%;
+	color: transparent;
+	border-radius: 20px;
+}
+#overdag:hover{
+	color: transparent;
+	cursor: default;
+}
+#overdag.nightModus{
+	color: white;
+	border:1px solid white;
+}
+#overdag.nightModus:hover{
+	color: black;
+	background-color: white;
+	cursor: pointer;
+}
+#overdag.dayModus:hover{
+	color: transparent;
+	cursor: default;
+}
+#nacht.nightModus:hover{
+	color: transparent;
+	cursor: default;
+}
+.saus{
+	color:#565555;
+}
+
+@media (min-width: 1200px){
+#countdown1{
+	font-size: 3vw;
+	text-align: center;
+	border: 1px dotted blue;
+	border-radius: 20px; 
+	padding: 2%;
+	margin-left: 12%;
+	margin-top: 3%;
+}
+#countdown2{
+	font-size: 3vw;
+	text-align: center;
+	padding: 2%;
+	border: 1px dotted blue;
+	border-radius: 20px; 
+	margin-left: 12%;
+	margin-top: 3%;
+}
+#mKlok{
+	display: flex;
+	border:2px dotted red;
+
+}
+
+#klok{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-size: 11vw;
+}
+#cD{
+	display: flex;
+	margin-left: 5%;
+}
+#cDO, #cDS{
+	font-size: 5vw;
+}
+}
+@media screen and (max-width: 1199px ){
+	#klok{
+		font-size: 15vw;
+	}
+	#cDO, #cDS{
+		font-size: 6vw;
+		}
+	#mKlok{
+		font-size: 10vw;
+		border:2px dotted red;
+	}
+	#countdown1{
+		font-size: 3vw;
+		text-align: center;
+		border: 1px dotted blue;
+		margin: 10%;
+		border-radius: 20px;
+	}
+	#countdown2{
+	font-size: 3vw;
+	text-align: center;
+	border: 1px dotted blue;
+	border-radius: 20px; 
+	margin: 10%;
+	}
+}
+@media (max-width: 600px){
+	#mKlok{
+		font-size: 15vw;
+		border:2px dotted red;
+	}
+	#countdown1{
+		font-size: 5vw;
+		text-align: center;
+		border: 1px dotted blue;
+		margin: 10%;
+		border-radius: 20px;
+	}
+	#countdown2{
+	font-size: 5vw;
+	text-align: center;
+	border: 1px dotted blue;
+	border-radius: 20px; 
+	margin: 10%;
+}
+
